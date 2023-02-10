@@ -1,0 +1,164 @@
+/* 
+    Created on : 9 feb 2023, 20:55:17
+    Author     : emers
+*/
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+    line-height: 80px;
+}
+
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px;
+    
+}
+
+.nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+.nav-menu-link:hover {
+    background-color: #024070;
+    color: darkgoldenrod;
+    font-size: 22px;
+    transition: 0.5s;
+}
+
+.logo {
+   font-size: 30px;
+   font-weight: bold;
+   padding: 0 40px;
+   line-height: 80px;
+}
+
+.header {
+    background-color: slateblue;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: fixed;    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.aside {
+    background-color: whitesmoke;
+    position: fixed;
+    top: 80px;
+    left: 0px;
+    bottom: 20px;
+    width: 20%;
+}
+
+.asideD{
+    background-color: whitesmoke;
+    position: fixed;
+    top: 80px;
+    left: 1130px;
+    bottom: 20px;
+    width: 20%;
+}
+
+body {
+    background-color: aliceblue;
+    font-family: sans-serif;
+    padding: 80px 20px 0 0;
+}
+
+.tituloCentro{
+    position: fixed;
+    left: 600px;
+}
+
+.articulo{
+    position: fixed;
+    left: 350px;
+    top: 200px;
+    
+}
+
+
+#imagen{
+    position: fixed;
+    left: 600px;
+    top: 300px;
+    
+}
+
+.textoCentrado {
+    text-align: center;
+}
+
+.contenido {
+    background-color: azure;
+    position: fixed;
+    top: 80px;
+    left: 20%;
+    right: 0;
+    bottom: 20px;
+    overflow: scroll;
+}
+
+p {
+    color: indigo;
+    font-size: 16;
+}
+
+a{
+    padding: 8px 12px;
+    border-radius: 8px;
+    
+}
+
+a:hover{
+    background-color: darkcyan;
+    color: darkgoldenrod;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.info{
+    font-variant-position: sub;
+}
+
+.lesiones{
+    position: fixed;
+    left: 400px;
+    top: 300px;
+    
+}
+
+#ubicacion{
+    position: fixed;
+    left: 400px;
+    top: 500px;
+}
